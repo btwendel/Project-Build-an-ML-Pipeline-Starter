@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/brian/Documents/GitHub/Project-Build-an-ML-Pipeline-Starter/mlruns/0/38d7c9c2a0e0499dbbe01101db5abd96/artifacts
+end_time: 1717463587383
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 38d7c9c2a0e0499dbbe01101db5abd96
+run_name: painted-skunk-879
+run_uuid: 38d7c9c2a0e0499dbbe01101db5abd96
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717463540928
+status: 3
+tags: []
+user_id: brian

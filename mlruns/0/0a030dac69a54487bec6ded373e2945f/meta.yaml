@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/brian/Documents/GitHub/Project-Build-an-ML-Pipeline-Starter/mlruns/0/0a030dac69a54487bec6ded373e2945f/artifacts
+end_time: 1717976430632
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0a030dac69a54487bec6ded373e2945f
+run_name: kindly-whale-48
+run_uuid: 0a030dac69a54487bec6ded373e2945f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717976402099
+status: 4
+tags: []
+user_id: brian

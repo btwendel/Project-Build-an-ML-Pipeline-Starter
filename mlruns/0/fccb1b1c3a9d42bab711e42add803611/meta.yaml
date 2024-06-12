@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/brian/Documents/GitHub/Project-Build-an-ML-Pipeline-Starter/mlruns/0/fccb1b1c3a9d42bab711e42add803611/artifacts
+end_time: 1717976916919
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fccb1b1c3a9d42bab711e42add803611
+run_name: vaunted-robin-158
+run_uuid: fccb1b1c3a9d42bab711e42add803611
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717976777376
+status: 3
+tags: []
+user_id: brian

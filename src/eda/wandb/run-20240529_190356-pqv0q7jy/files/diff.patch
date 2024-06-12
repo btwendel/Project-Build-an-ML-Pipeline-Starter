@@ -1,0 +1,206 @@
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+index 0000000..26d3352
+--- /dev/null
++++ b/.idea/.gitignore
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+diff --git a/.idea/Project-Build-an-ML-Pipeline-Starter.iml b/.idea/Project-Build-an-ML-Pipeline-Starter.iml
+new file mode 100644
+index 0000000..8b8c395
+--- /dev/null
++++ b/.idea/Project-Build-an-ML-Pipeline-Starter.iml
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++  <component name="PyDocumentationSettings">
++    <option name="format" value="PLAIN" />
++    <option name="myDocStringFormat" value="Plain" />
++  </component>
++</module>
+\ No newline at end of file
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+index 0000000..105ce2d
+--- /dev/null
++++ b/.idea/inspectionProfiles/profiles_settings.xml
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+index 0000000..05b3fa7
+--- /dev/null
++++ b/.idea/modules.xml
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/Project-Build-an-ML-Pipeline-Starter.iml" filepath="$PROJECT_DIR$/.idea/Project-Build-an-ML-Pipeline-Starter.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+index 0000000..35eb1dd
+--- /dev/null
++++ b/.idea/vcs.xml
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/conda.yml b/conda.yml
+index e8f87fa..1298100 100644
+--- a/conda.yml
++++ b/conda.yml
+@@ -8,4 +8,5 @@ dependencies:
+   - hydra-core=1.0.6
+   - pip=20.3.3
+   - pip:
+-      - wandb==0.13.9
+\ No newline at end of file
++      - wandb==0.13.9
++      - databricks_cli=0.8.7
+\ No newline at end of file
+diff --git a/mlflow b/mlflow
+new file mode 100644
+index 0000000..e69de29
+diff --git a/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/meta.yaml b/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/meta.yaml
+new file mode 100644
+index 0000000..c279b71
+--- /dev/null
++++ b/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/meta.yaml
+@@ -0,0 +1,15 @@
++artifact_uri: file:///Users/brian/Documents/GitHub/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/artifacts
++end_time: null
++entry_point_name: ''
++experiment_id: '0'
++lifecycle_stage: active
++run_id: e45e3893f7a54d24a430a6645c7c7a3c
++run_name: omniscient-shark-917
++run_uuid: e45e3893f7a54d24a430a6645c7c7a3c
++source_name: ''
++source_type: 4
++source_version: ''
++start_time: 1716419061684
++status: 1
++tags: []
++user_id: brian
+diff --git a/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/params/hydra_options b/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/params/hydra_options
+new file mode 100644
+index 0000000..9423090
+--- /dev/null
++++ b/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/params/hydra_options
+@@ -0,0 +1 @@
++''
+\ No newline at end of file
+diff --git a/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/params/steps b/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/params/steps
+new file mode 100644
+index 0000000..8a58e1a
+--- /dev/null
++++ b/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/params/steps
+@@ -0,0 +1 @@
++download
+\ No newline at end of file
+diff --git a/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/tags/mlflow.gitRepoURL b/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/tags/mlflow.gitRepoURL
+new file mode 100644
+index 0000000..2721920
+--- /dev/null
++++ b/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/tags/mlflow.gitRepoURL
+@@ -0,0 +1 @@
++https://github.com/btwendel/Project-Build-an-ML-Pipeline-Starter.git
+\ No newline at end of file
+diff --git a/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/tags/mlflow.project.entryPoint b/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/tags/mlflow.project.entryPoint
+new file mode 100644
+index 0000000..88d050b
+--- /dev/null
++++ b/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/tags/mlflow.project.entryPoint
+@@ -0,0 +1 @@
++main
+\ No newline at end of file
+diff --git a/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/tags/mlflow.project.env b/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/tags/mlflow.project.env
+new file mode 100644
+index 0000000..f79e4cb
+--- /dev/null
++++ b/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/tags/mlflow.project.env
+@@ -0,0 +1 @@
++conda
+\ No newline at end of file
+diff --git a/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/tags/mlflow.runName b/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/tags/mlflow.runName
+new file mode 100644
+index 0000000..8ad49d2
+--- /dev/null
++++ b/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/tags/mlflow.runName
+@@ -0,0 +1 @@
++omniscient-shark-917
+\ No newline at end of file
+diff --git a/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/tags/mlflow.source.git.commit b/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/tags/mlflow.source.git.commit
+new file mode 100644
+index 0000000..177f79e
+--- /dev/null
++++ b/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/tags/mlflow.source.git.commit
+@@ -0,0 +1 @@
++077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98
+\ No newline at end of file
+diff --git a/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/tags/mlflow.source.git.repoURL b/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/tags/mlflow.source.git.repoURL
+new file mode 100644
+index 0000000..2721920
+--- /dev/null
++++ b/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/tags/mlflow.source.git.repoURL
+@@ -0,0 +1 @@
++https://github.com/btwendel/Project-Build-an-ML-Pipeline-Starter.git
+\ No newline at end of file
+diff --git a/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/tags/mlflow.source.name b/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/tags/mlflow.source.name
+new file mode 100644
+index 0000000..8f09456
+--- /dev/null
++++ b/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/tags/mlflow.source.name
+@@ -0,0 +1 @@
++file:///Users/brian/Documents/GitHub/Project-Build-an-ML-Pipeline-Starter
+\ No newline at end of file
+diff --git a/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/tags/mlflow.source.type b/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/tags/mlflow.source.type
+new file mode 100644
+index 0000000..53f9167
+--- /dev/null
++++ b/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/tags/mlflow.source.type
+@@ -0,0 +1 @@
++PROJECT
+\ No newline at end of file
+diff --git a/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/tags/mlflow.user b/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/tags/mlflow.user
+new file mode 100644
+index 0000000..c17e5c8
+--- /dev/null
++++ b/mlruns/0/e45e3893f7a54d24a430a6645c7c7a3c/tags/mlflow.user
+@@ -0,0 +1 @@
++brian
+\ No newline at end of file
+diff --git a/mlruns/0/meta.yaml b/mlruns/0/meta.yaml
+new file mode 100644
+index 0000000..df5bb00
+--- /dev/null
++++ b/mlruns/0/meta.yaml
+@@ -0,0 +1,6 @@
++artifact_location: file:///Users/brian/Documents/GitHub/Project-Build-an-ML-Pipeline-Starter/mlruns/0
++creation_time: 1716419061682
++experiment_id: '0'
++last_update_time: 1716419061682
++lifecycle_stage: active
++name: Default

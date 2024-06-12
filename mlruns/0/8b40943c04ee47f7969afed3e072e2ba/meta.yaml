@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/brian/Documents/GitHub/Project-Build-an-ML-Pipeline-Starter/mlruns/0/8b40943c04ee47f7969afed3e072e2ba/artifacts
+end_time: 1717456789502
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8b40943c04ee47f7969afed3e072e2ba
+run_name: rare-sponge-87
+run_uuid: 8b40943c04ee47f7969afed3e072e2ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717456779088
+status: 3
+tags: []
+user_id: brian

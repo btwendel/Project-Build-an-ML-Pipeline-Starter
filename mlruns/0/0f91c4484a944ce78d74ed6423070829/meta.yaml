@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/brian/Documents/GitHub/Project-Build-an-ML-Pipeline-Starter/mlruns/0/0f91c4484a944ce78d74ed6423070829/artifacts
+end_time: 1717462814616
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0f91c4484a944ce78d74ed6423070829
+run_name: painted-owl-282
+run_uuid: 0f91c4484a944ce78d74ed6423070829
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717462810740
+status: 4
+tags: []
+user_id: brian

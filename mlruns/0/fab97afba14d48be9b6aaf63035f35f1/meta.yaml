@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/brian/Documents/GitHub/Project-Build-an-ML-Pipeline-Starter/mlruns/0/fab97afba14d48be9b6aaf63035f35f1/artifacts
+end_time: 1718155331372
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fab97afba14d48be9b6aaf63035f35f1
+run_name: receptive-slug-398
+run_uuid: fab97afba14d48be9b6aaf63035f35f1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718155327918
+status: 4
+tags: []
+user_id: brian
